@@ -1,0 +1,28 @@
+/* Definições gerais */
+body {
+    transition: background 0.5s ease-in-out;
+    text-align: center;
+}
+
+/* Fundo escuro quando a lâmpada está apagada */
+.dark {
+    background-color: black;
+    color: white;
+}
+
+/* Fundo iluminado quando a lâmpada está acesa */
+.light {
+    background-image: url('../img/quarto.png'); /* Fundo do quarto iluminado */
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
+
+/* Ajustes nos botões */
+.button-container {
+    margin-top: 20px;
+}
+
+.btn {
+    margin: 5px;
+}
